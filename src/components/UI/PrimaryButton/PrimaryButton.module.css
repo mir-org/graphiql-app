@@ -1,0 +1,22 @@
+.myBtn {
+  padding: 5px 15px;
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 18px;
+  background: var(--black-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.myBtn:hover {
+  text-decoration: underline;
+  color: var(--green-color);
+  background: var(--grey-color);
+}
+
+.myBtn:disabled {
+  color: var(--grey-color);
+  background: var(--grey-color2);
+  cursor: default;
+  text-decoration: none;
+}

@@ -1,0 +1,72 @@
+.wrapper {
+  position: relative;
+  flex: 1 0 auto;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.content {
+  flex: 0 1 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.queryResponseSection {
+  flex: 0 1 40%;
+}
+
+.row {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.fields {
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.controlPanel {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon {
+  max-width: 32px;
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .queryResponseSection {
+    flex: 0 1 44%;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .fields {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 790px) {
+  .queryResponseSection {
+    flex: 0 1 100%;
+  }
+
+  .controlPanel {
+    flex-direction: row;
+  }
+}

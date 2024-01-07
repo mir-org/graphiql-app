@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.input {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 468px) {
+  .form {
+    padding: 15px 0px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input {
+    width: 100%;
+  }
+}

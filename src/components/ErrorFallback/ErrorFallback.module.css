@@ -1,0 +1,42 @@
+.wrapper {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #dba634;
+  color: white;
+}
+
+.button:hover {
+  background-color: #b97629;
+}

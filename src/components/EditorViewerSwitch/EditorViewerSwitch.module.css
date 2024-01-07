@@ -1,0 +1,23 @@
+.queryEditor,
+.jsonViewer {
+  /* flex: 0 1 40%; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.queryEditor {
+  background-color: #bca136;
+  color: rgb(255, 255, 255);
+}
+
+.jsonViewer {
+  background-color: #107896;
+  color: rgb(255, 255, 255);
+}
+
+.textarea {
+  flex: 0 1 100%;
+}

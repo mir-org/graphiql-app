@@ -1,0 +1,85 @@
+{
+  "header": {
+    "link": {
+      "welcome": "Welcome",
+      "signOut": "Sign Out"
+    }
+  },
+  "welcomePage": {
+    "link": {
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "mainPage": "Main Page"
+    }
+  },
+  "signInPage": {
+    "text": {
+      "signIn": "Sign In"
+    }
+  },
+  "signUpPage": {
+    "text": {
+      "signUp": "Sign Up"
+    }
+  },
+  "form": {
+    "input": {
+      "email": "Email:",
+      "password": "Password:",
+      "name": "Name:"
+    },
+    "button": {
+      "signIn": "Sign In",
+      "signUp": "Sign Up"
+    }
+  },
+  "validation": {
+    "required": "Required field",
+    "name": "Name must start with an uppercase letter",
+    "email": "Wrong email format",
+    "password": "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+  },
+  "mainPage": {
+    "editorTabs": {
+      "variables": "Variables",
+      "headers": "Headers"
+    },
+    "apiLinkForm": {
+      "label": "API URL",
+      "changeApiBtn": "Change URL"
+    }
+  },
+  "sideTools": {
+    "docs": {
+      "docsBtn": "Docs"
+    }
+  },
+  "notFoundPage": {
+    "Error": "Error 404",
+    "PageNotFound": "Page Not Found",
+    "brokeSomething": "We broke something!",
+    "orU": "Or you did...",
+    "BackToMain": "Back to main"
+  },
+  "developers": {
+    "developerIlya": {
+      "firstName": "Ilya",
+      "position": "Team lead",
+      "biography": "Worked in logistics for almost 2 years. Then I decided to change my life. That's how I came to RSSchool, and this is my second attempt to take this course.",
+      "gitHubLink": "https://github.com/toronto-tokyo"
+    },
+    "developerVladislav": {
+      "firstName": "Vladislav",
+      "position": "Frontend developer",
+      "biography": "After I finished my studies, I made a living by trading for several years, then for a couple of years I had my own small outsourcing company, but it just became boring and now I’m trying to find my place in development.",
+      "gitHubLink": "https://github.com/GinezisNWD"
+    },
+    "developerMiroslav": {
+      "firstName": "Miroslav",
+      "position": "Frontend developer",
+      "biography": "I have been working as an IT Support Technician for a few years. Right now I'm studying frontend development to challenge myself and potentially open a new career path.",
+      "gitHubLink": "https://github.com/miroslav-zarenkov"
+    }
+  },
+  "courseInfo": "Welcome to our to our GraphiQL application - final task of The RSSchool React Course! GraphiQL is a playground/IDE for graphQL requests."
+}

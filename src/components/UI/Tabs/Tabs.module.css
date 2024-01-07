@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  padding: 5px 0px;
+  margin: 10px 0px;
+  gap: 20px;
+}
+
+.tab {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: 700;
+}

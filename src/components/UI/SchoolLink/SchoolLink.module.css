@@ -1,0 +1,10 @@
+.schoolLink {
+  display: block;
+}
+
+.logo {
+  width: 70px;
+  height: 30px;
+  background-image: url('./../../../assets/rs_school_js.svg');
+  background-repeat: no-repeat;
+}
